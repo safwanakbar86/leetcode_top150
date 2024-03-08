@@ -1,43 +1,48 @@
-import math
+def spiralOrder(self, matrix):
+        def traversal(matrix, answer, loop, rows, cols, count):
+            while count < loop:
+                for j in range(count, cols - count):
+                    answer.append(matrix[count][j])
+                for i in range(count + 1, (rows - 1) - count):
+                    answer.append(matrix[i][-1 - count])
+                for j in range(-1 - count, count - (cols + 1), -1):
+                    answer.append(matrix[-1 - count][j])
+                for i in range((rows - 2) - count, count, -1):
+                    answer.append(matrix[i][count])
+                count += 1
+            return count
 
-a = []
-m = len(matrix)
-n = len(matrix[0])
+        answer = []
+        count = 0
+        rows = len(matrix)
+        cols = len(matrix[0])
 
-if m == 1:
-    for j in range(n):
-        a.append(matrix[0][j])
-    print(a)
+        if rows % 2 == 1 and rows == cols:
+            loop = rows // 2
+            count = traversal(matrix, answer, loop, rows, cols, count)
+            answer.append(matrix[rows // 2][cols // 2])
 
-elif n == 1:
-    for i in range(m):
-        a.append(matrix[i][0])
-    print(a)
+        elif rows % 2 == 0 and rows == cols:
+            loop = (rows / 2) - 1
+            count = traversal(matrix, answer, loop, rows, cols, count)
+            
+            for j in range(count, cols - count):
+                answer.append(matrix[count][j])
+            for j in range(-1 - count, count - (cols + 1), -1):
+                answer.append(matrix[-1 - count][j])
 
-elif m % 2 == 1 and m == n:
-    print(a)
+        elif rows > cols:
+            loop = cols // 2
+            count = traversal(matrix, answer, loop, rows, cols, count)
+            if cols % 2 != 0:
+                for i in range(count, rows - count):
+                    answer.append(matrix[i][count])
 
-elif m % 2 == 0 and m == n:
-    print(a)
+        elif rows < cols:
+            loop = rows // 2
+            count = traversal(matrix, answer, loop, rows, cols, count)
+            if rows % 2 != 0:
+                for j in range(count, cols - count):
+                    answer.append(matrix[count][j])
 
-else:
-    mod = math.ceil((m*n)/4)
-    odd_count = 0
-    even_count = 0
-
-    for count in range(mod):
-        if count % 2 == 0:
-            for j in range(even_count, n - even_count):
-                a.append(matrix[even_count][j])
-            for i in range(even_count + 1, (m - 1) - even_count):
-                a.append(matrix[i][-1 - even_count])
-            even_count += 1
-
-        else:
-            for j in range(-1 - odd_count, odd_count - (n + 1), -1):
-                a.append(matrix[-1 - odd_count][j])
-            for i in range((m - 2) - odd_count, odd_count, -1):
-                a.append(matrix[i][odd_count])
-            odd_count += 1
-
-    print(a)
+        return answer
