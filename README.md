@@ -37,7 +37,7 @@ The following tables include the complete solutions so far.
 ### Stack
 | Easy | Medium | Hard |
 | - | - | - |
-| Valid Parentheses | | Basic Calculator |
+| Valid Parentheses | Evaluate Reverse<br>Polish Notation | Basic Calculator |
 
 ### Linked List
 | Easy | Medium | Hard |
