@@ -24,6 +24,11 @@ The following tables include the complete solutions so far.
 | Spiral Matrix |
 | Rotate Image |
 
+### Hashmap
+| Easy | Medium |
+| - | - |
+| Two Sum |
+
 ### Intervals
 | Easy | Medium |
 | - | - |
