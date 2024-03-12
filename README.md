@@ -9,7 +9,7 @@ The following tables include the complete solutions so far.
 | - | - | - |
 | Merge Sorted Array | Rotate Array |
 | Remove Element | Reverse Word In A String |
-| Remove Duplicates from <br> Sorted Array |
+| Remove Duplicates from <br> Sorted Array I | Zigzag Conversion |
 | Length of Last Word |
 | Find Index of the <br> First Occurence in a String |
 
