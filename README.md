@@ -34,10 +34,12 @@ The following tables include the complete solutions so far.
 | - | - |
 | Summary Ranges |
 
-### Stack
+### Stack (Completed)
 | Easy | Medium | Hard |
 | - | - | - |
 | Valid Parentheses | Evaluate Reverse<br>Polish Notation | Basic Calculator |
+| | Min Stack |
+| | Simplify Path |
 
 ### Linked List
 | Easy | Medium | Hard |
