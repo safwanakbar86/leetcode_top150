@@ -1,6 +1,6 @@
 # LeetCode Top Interview 150
 
-This repository includes my solutions for the LeetCode Top Interview 150 challenge. (In progress)
+This repository includes my solutions for LeetCode Top Interview 150.
 
 The following tables include the complete solutions so far.
 
