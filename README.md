@@ -46,6 +46,12 @@ The following tables include the complete solutions so far.
 | - | - | - |
 | | Add Two Numbers |
 
+### Kadane's Algorithm (Completed)
+| Medium |
+| - |
+| Maximum Subarray Sum |
+| Maximum Circular Subarray Sum |
+
 ### Bit Manipulation
 | Easy | Medium |
 | - | - |
