@@ -63,3 +63,9 @@ The following tables include the complete solutions so far.
 | - | - | - |
 | Palindrome Number | Pow(x, n) |
 | Plus One |
+
+### 1D DP
+| Easy | Medium |
+| - | - |
+| Fibonacci Number |
+| Climbing Stairs |
