@@ -1,8 +1,8 @@
 # LeetCode Top Interview 150
 
-This repository includes my solutions for LeetCode Top Interview 150.
+This repository includes my solutions for LeetCode [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
 
-The following tables include the complete solutions so far.
+The following tables include the complete solutions so far
 
 ### Array / String
 | Easy | Medium | Hard |
