@@ -16,7 +16,7 @@ The following tables include the complete solutions so far
 ### Two Pointers
 | Easy | Medium |
 | - | - |
-| Valid Palindrome |
+| Valid Palindrome | 3Sum |
 
 ### Matrix
 | Medium |
