@@ -1,7 +1,7 @@
   def productExceptSelf(self, nums):
       length = len(nums)
       result = 1
-      answer =[1] * length
+      answer = [1] * length
       
       for index in range(length):
           answer[index] = result
