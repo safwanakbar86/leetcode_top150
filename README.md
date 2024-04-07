@@ -11,7 +11,7 @@ The following tables include the complete solutions so far
 | Remove Element | Reverse Word In A String |
 | Remove Duplicates <br>from Sorted Array I | Remove Duplicates <br>from Sorted Array II |
 | Length of Last Word | Zigzag Conversion |
-| Find Index of the <br> First Occurence in a String | Product of Array<br>Except Self |
+| Find Index of First<br>Occurence in a String | Product of Array<br>Except Self |
 
 ### Two Pointers
 | Easy | Medium |
