@@ -62,7 +62,8 @@ The following tables include the complete solutions so far
 | Easy | Medium | Hard |
 | - | - | - |
 | Palindrome Number | Pow(x, n) |
-| Plus One |
+| Plus One | Factorial Trailing Zeroes |
+| Sqrt(x) |
 
 ### 1D DP
 | Easy | Medium |
