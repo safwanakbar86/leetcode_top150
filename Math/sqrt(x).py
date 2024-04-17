@@ -2,4 +2,4 @@ def mySqrt(self, x):
     n = 0
     while n * n <= x:
         n += 1
-    return n
+    return n - 1
