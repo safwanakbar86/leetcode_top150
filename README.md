@@ -52,6 +52,11 @@ The following tables include the complete solutions so far
 | Maximum Subarray Sum |
 | Maximum Circular Subarray Sum |
 
+### Binary Search
+| Easy | Medium | Hard |
+| - | - | - |
+| Search Insert Position |
+
 ### Bit Manipulation
 | Easy | Medium |
 | - | - |
