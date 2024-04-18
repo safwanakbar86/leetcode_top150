@@ -56,7 +56,7 @@ The following tables include the complete solutions so far
 | Easy | Medium | Hard |
 | - | - | - |
 | Search Insert Position | Sum of Square Numbers |
-| Valid Perfect Square |
+| Valid Perfect Square | Find First and Last Position |
 
 ### Bit Manipulation
 | Easy | Medium |
