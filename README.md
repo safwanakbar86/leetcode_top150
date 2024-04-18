@@ -55,7 +55,8 @@ The following tables include the complete solutions so far
 ### Binary Search
 | Easy | Medium | Hard |
 | - | - | - |
-| Search Insert Position |
+| Search Insert Position | Sum of Square Numbers |
+| Valid Perfect Square |
 
 ### Bit Manipulation
 | Easy | Medium |
